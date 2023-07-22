@@ -18,9 +18,10 @@
             <h2>How Can A Wellness Technology Company Play It Smart?</h2>
     
             <div class="userinfo" >
-                <h3 style="display: inline-flex; font-weight: lighter;">B. Hrithik</h3>
-                <h3 style=" display: inline-flex; font-weight: lighter; padding-right: 20px;">Last updated: 22/07/2023</h3>
+                <h3 style="display: inline-flex; font-weight: lighter;"><b style="margin-right: 20px;">Author:</b> B. Hrithik</h3>
+                <h3 style=" display: inline-flex; font-weight: lighter; padding-right: 20px;"><b style="margin-right: 20px;">Last updated:</b> 22/07/2023</h3>
             </div>
+            <h4 style="display: block; font-weight: 300; margin-bottom: 50px;">Tools Used : Excel, SQL, R, Tabeau</h4>
         </div>
     
         <div>
@@ -146,7 +147,9 @@
                         </code>
                     </pre>
                     <h5>Result:</h5>
-                    <img src="Resources\Query_1_Result.jpg" alt="Query_1_Result" style="margin-left: 40px;"/>
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources\Query_1_Result.jpg" alt="Query_1_Result"/>
+                    </div>
     
                     <p>As an Example, I have checked if the first four columns have null values. The query checks every row in a given column, and add one to the result if it finds a null value.</p>
                     <p>No null values are found in the first 4 columns.</p>
@@ -169,7 +172,9 @@
                         </code>
                     </pre>
                     <h5>Result:</h5>
-                    <img src="Resources\Query_2_Result.jpg" alt="Query_2_Result" style="margin-left: 90px;"/>
+                    <div style="display: flex; width: 100%; justify-content: center;">
+                        <img src="Resources\Query_2_Result.jpg" alt="Query_2_Result"/>
+                    </div>
     
                     <p>Here the count of every Id is checked by grouping by the Id's and by the Activity Dates, as There are multiple values of the same Id, but on different dates.</p>
                     <p>As we can see, all the counts are 1's, hence no duplicate values are found.</p>
@@ -299,7 +304,9 @@
                         </code>
                     </pre>
                     <h5>Result:</h5>
-                    <img src="Resources\Query_3_Result.jpg" alt="Query_3_Result" style="width: 95%; margin-left: 20px;"/>
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources\Query_3_Result.jpg" alt="Query_3_Result" style="width: 95%;"/>
+                    </div>
     
                     <p>This gives us important insights about the dataset.</p>
                     <ul>
@@ -363,8 +370,11 @@
                         </code>
                     </pre>
                     <h5>Plot:</h5>
-                    <img src="Resources\Count of logins every week day.jpeg" alt="Count of log-ins every week day" style="margin-left: 250px;" />
-    
+
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources\Count of logins every week day.jpeg" alt="Count of log-ins every week day"" />
+                    </div>
+
                     <h5>Insights:</h5>
                     <ul>
                         <li>
@@ -398,8 +408,12 @@
                     </pre>
     
                     <h5>Plot:</h5>
-                    <img src="Resources\Total steps taken vs calories burnt.jpeg" alt="steps v/s calories" style="margin-left: 250px;"/>
+
+                    <div style="display: flex; width: 100%; justify-content: center;">
+                        <img src="Resources\Total steps taken vs calories burnt.jpeg" alt="steps v/s calories" "/>
     
+                    </div>
+
                     <p>The scatter plot is visualised beautifully with a colorful gradient from Blue to Red, indicating the change from least amount of steps taken, to the most amount. </p>
                 
                     <h5>Insights:</h5>
@@ -433,7 +447,10 @@
                     <p>Where weight_log is the name of the database, and Id is the column with the Ids of each individual.</p>
     
                     <h5>Result:</h5>
-                    <img src="Resources/id_counts.jpg" alt="id_counts" style="margin-left: 100px;" />
+                    
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources/id_counts.jpg" alt="id_counts" />
+                    </div>
     
                     <p>From the above table, it is evident that Id's 8877689391 and 6962181067 have the most number of weight logs. There fore, we shall proceed with the analysis for only these two id's.</p>
     
@@ -461,7 +478,9 @@
                     <p>The first plot (plot1) is the plot between weight logged every day v/s Date and the second plot (plot2) is the plot between number of steps taken v/s Date.</p>
     
                     <h5>Plot:</h5>
-                    <img src="Resources\Weight loss vs Steps.jpeg" alt="Weight lass vs steps" style="margin-left: 30px;"/>
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources\Weight loss vs Steps.jpeg" alt="Weight lass vs steps"/>
+                    </div>
     
                     <h4>Id: 6962181067</h4>
     
@@ -485,8 +504,11 @@
                     </pre>
     
                     <h5>Plot:</h5>
-                    <img src="Resources\Weight loss vs Steps 2.jpeg" alt="Weight lass vs steps" style="margin-left: 40px; width: 90%;"/>
+                    
+                    <div style="display: flex; width: 100%; justify-content: center;">
+                        <img src="Resources\Weight loss vs Steps 2.jpeg" alt="Weight lass vs steps" style=" width: 90%;"/>
     
+                    </div>
                     
                     <h5>Insights :</h5>
                     <ul>
@@ -524,7 +546,9 @@
                     <p>In the above code, I calculated the mean value of durations stating the levels of activity. Then I plotted the piechart with appropriate labling and visuals.</p>
     
                     <h4>Plot:</h4>
-                    <img src="Resources\Percentage of Daily Activity.jpeg" alt="Precentage of activity" style="margin-left: 250px;"/>
+                    <div style="width: 100%; display: flex; justify-content: center;">
+                        <img src="Resources\Percentage of Daily Activity.jpeg" alt="Precentage of activity" />
+                    </div>
     
                     <h5>Insights :</h5>
                     <ul>
@@ -555,9 +579,9 @@
                         </code>
                     </pre>
                     <h4>Plot :</h4>
-                    <plot>
-                        <img src="Resources/Calories vs Sleep.jpeg" alt="calories vs sleep" style="margin-left: 290px;" />
-                    </plot>
+                    <div style="display: flex; width: 100%; justify-content: center;">
+                        <img src="Resources/Calories vs Sleep.jpeg" alt="calories vs sleep" />
+                    </div>
     
                     <h5>Insights :</h5>
                     <ul>
@@ -573,7 +597,7 @@
                     <h3>Heart Rate thoughout the day</h3>       
                     <p>This visualization shall be done in Tableau, since there are a lot of datapoints which can't be handled in ggplot2. Heart rate data of the individual with Id : 2022484408 is used here, since he/she has the most amoint of readings in any given day.</p>  
                     
-                    <div class='tableauPlaceholder' id='viz1690003623385' style='position: relative; margin-left: 100px;'>
+                    <div class='tableauPlaceholder' id='viz1690003623385' style='position: relative;'>
                         <noscript>
                             <a href='#'><img alt='Mean Heart Rate v&#47;s Time (Id : 2022484408) ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;PQ&#47;PQ2CYJFMY&#47;1_rss.png' style='border: none' /></a>
                         </noscript>
@@ -612,10 +636,50 @@
                     </ul>
                 </li>
             </ul>
+
+            <h4>Dashboard:</h4>
+
+            <p>All the visualizations together, I have made a Tableau dashboard which sums up the capstone project in a single figure.</p>
+
+            <div class='tableauPlaceholder' id='viz1690043860768' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;Bellabeat_Dashboard_Updated&#47;Dashboard1&#47;1_rss.png' style='border: none' />
+                    </a>
+                </noscript>
+                
+                <object class='tableauViz'  style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='Bellabeat_Dashboard_Updated&#47;Dashboard1' />
+                    <param name='tabs' value='no' /><param name='toolbar' value='yes' />
+                    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Be&#47;Bellabeat_Dashboard_Updated&#47;Dashboard1&#47;1.png' /> 
+                    <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='en-GB' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>                
+            <script type='text/javascript'>                    
+                var divElement = document.getElementById('viz1690043860768');                    
+                var vizElement = divElement.getElementsByTagName('object')[0];                    
+                if ( divElement.offsetWidth > 800 ) 
+                    { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else if ( divElement.offsetWidth > 500 ) 
+                    { vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';} 
+                else 
+                    { vizElement.style.width='100%';vizElement.style.height='1677px';}                     
+                var scriptElement = document.createElement('script');                    
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+            </script>
     
         </div>
     
-        <div class="Act" style="margin-bottom: 20px;">
+        <div class="Act" style="margin-bottom: 20px; margin-top: 50px;">
             <h3>F: Acting based on the insights</h3>
     
             <p>From the trends observed because of the data analysis, we got a lot of insights on the fitness tracker industry. These insights can be used to identify potential growth opportunities for Bellabeat.</p>
